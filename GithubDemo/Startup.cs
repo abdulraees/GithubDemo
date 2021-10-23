@@ -16,7 +16,7 @@ namespace GithubDemo
         {
             Configuration = configuration;
         }
-        //Readonly property
+        //Readonly property, update property
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
