@@ -16,7 +16,7 @@ namespace GithubDemo
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+//Configuration changes
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
