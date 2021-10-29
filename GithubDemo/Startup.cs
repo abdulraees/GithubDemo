@@ -15,6 +15,7 @@ namespace GithubDemo
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //This is a change by 2nd developer
         }
         //Readonly property, update property
         public IConfiguration Configuration { get; }
