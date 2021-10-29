@@ -15,6 +15,7 @@ namespace GithubDemo
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //This is a feature B development
         }
         //Configuration changes, commit and push in one go.
         public static IHostBuilder CreateHostBuilder(string[] args) =>
